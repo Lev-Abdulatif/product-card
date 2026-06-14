@@ -1,3 +1,9 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 13px;
@@ -15,11 +21,16 @@ body {
   text-align: center;
   color: #515076;
   margin-bottom: 110px;
+  position: relative;
+  z-index: 20;
 }
 
 .conteiner {
   display: flex;
   justify-content: center;
+  position: relative;
+  z-index: 10;
+
 }
 
 .product_list {
@@ -31,6 +42,14 @@ body {
   align-items: center;
   width: 1110px;
   gap: 45px;
+}
+
+.img_back {
+  position: absolute;
+  left: 0;
+  top: -408px;
+  z-index: -1;
+  padding: 85px;
 }
 
 .product_card {
