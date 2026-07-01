@@ -1,0 +1,20 @@
+.compound {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+
+.compound__name {
+  margin: 0 0 5px 0;
+}
+
+
+.compound__list {
+  list-style-type: circle;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  margin: 0 0 25px 0;
+}
